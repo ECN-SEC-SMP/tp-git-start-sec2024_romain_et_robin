@@ -3,14 +3,16 @@ using namespace std;
 
 #include "compte.h"
 
-int main() {
+//on compile avec ./main
+
+int main() { 
     compte janick(65136);
     janick.crediter(2000.0);
     cout << "solde du compte janick : " << janick.getSolde() << endl;
     if (janick.debiter(1000.0)) {
         cout << "debit autorise" << endl;
     }
-    else {
+    else { 
         cout << "operation interdite" << endl;
     }
     cout << "solde du compte janick : " << janick.getSolde() << endl;

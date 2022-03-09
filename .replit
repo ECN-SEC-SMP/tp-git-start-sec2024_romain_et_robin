@@ -1,2 +1,2 @@
 language = "C++"
-run = ["make","./main"]
+run = ["make"]
